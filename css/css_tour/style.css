@@ -333,15 +333,16 @@ header h1 a img {
     top: -45px;
     position: relative;
     cursor: pointer ;
+
 }
 
 .banner .label {
-    color: #fff;
+    height: 300px;
     position: absolute;
     text-align: center;
     left: 0;
     top: 50%;
-    margin-top: -38px;
+    margin-top: -150px;
     right: 0;
     text-transform: uppercase;
     background-color: #000; 
@@ -349,23 +350,19 @@ header h1 a img {
     opacity: 1;
     visibility: visible;
 }
-
-.banner label:hover{
-    opacity: 1;
-    visibility: hidden;
+.banner .label:hover{
+    opacity: 0;
+    transition: all 100ms easy-out;
 }
-
 .banner .label .title {
     font-size: 30px;
     margin-bottom: 14px;
-    text-transform: uppercase;
 }
 
-.banner .label .price span {
-    display: block;
-    font-size: 24px;
-    padding-top: 3px;
-}
+
+
+
+
 
 .banner a {
     font-size: 14px;
@@ -836,6 +833,7 @@ header h1 {
     position: relative;
 	height: auto;
     margin-bottom: 20px;
+    color: #a3afba;
 }
 
 .img_inner {

@@ -159,6 +159,10 @@ html, body {
   -ms-transform: translate3d(0, 0, 0);
 }
 
+.h5 {
+  background-color: #cccccc;
+}
+
 .slick-list {
   position: relative;
   overflow: hidden;
