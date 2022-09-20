@@ -238,6 +238,98 @@ footer {
   color: #fff;
 }
 
+.contenidoGroove5 {
+  background-color: #000;
+
+}
+
+.contenidoGroove5 p {
+  margin: auto;
+  font-size: 1.2rem;
+  width: 70%;
+  padding: 3vh 2.2rem;
+  color: #fff;
+}
+
+.contenidoGroove6 {
+  text-align:center;
+  background-image: url(../img/sobre_mi/profil_hesler.png);
+  background-repeat: no-repeat;
+  background-color: #000;
+  background-size: contain;
+  background-position-x: center;
+  width: 70%;
+}
+
+.contenidoGroove6 p {
+  margin: auto;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 70%;
+  padding: 25vh 1.5rem;
+  color: #fff;
+}
+
+.contenidoGroove7 {
+  text-align: center;
+  background-image: url(../img/sobre_mi/sobremi1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.contenidoGroove7 p {
+  text-align: center;
+  font-size: 1.2rem;
+  min-height: 70px;
+  padding: 25vh 20rem;
+  color: #fff;
+
+}
+
+.contenidoGroove8 {
+  text-align: center;
+  background-image: url(../img/sobre_mi/sobremi3.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.contenidoGroove8 p {
+  text-align: center;
+  font-size: 1.2rem;
+  min-height: 70px;
+  padding: 25vh 20rem;
+  color: #fff;
+}
+
+.contenidoGroove9 {
+  text-align: center;
+  background-image: url(../img/sobre_mi/sobremi.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.contenidoGroove9 p {
+  text-align: center;
+  font-size: 1.2rem;
+  min-height: 70px;
+  padding: 25vh 20rem;
+  color: #fff;
+}
+
+.contenidoGroove10 {
+  background-color: #000;
+
+}
+
+.contenidoGroove10 p {
+  margin: auto;
+  font-size: 1.2rem;
+  width: 70%;
+  padding: 3vh 2.2rem;
+  color: #fff;
+}
+
+
 /*===================SECCION contacto ==========================*/
 .heroContacto {
   text-align: center;
