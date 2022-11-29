@@ -56,23 +56,27 @@
         </nav>
     </header>
     <main>
+
         <div class="container-fluid p-0">
             <div class="heroContacto">
 
-                    <form class="formularioContacto" action="" method="" enctype="application/x-www-form-urlencoded">
+                    <form class="formularioContacto" action="https://formsubmit.co/lopezhesler@gmail.com" method="POST" enctype="application/x-www-form-urlencoded">
                         
                         <label>Reservaciones e información </label>
                         <br>
-                        <input class="input" type="text" id="nombre" placeholder="Ingresa tu nombre"> 
+                        <input class="input" type="text" id="nombre" placeholder="Ingresa tu nombre" name="email"> 
                         <br>
-                        <input class="input"  type="email" id="email" placeholder="Ingresa tu Email">
+                        <input class="input"  type="email" id="email" placeholder="Ingresa tu Email" name="email">
                         <br>
-                        <textarea  id="message" name="message" placeholder="Escribe tu mensaje" rows="7"></textarea>
+                        <textarea  id="message" name="message" placeholder="Escribe tu mensaje" rows="7" name="email"></textarea>
                         <br>
-                        <label for="checkbox">¿Recibir noticias de mis proximos lanzamientos? </label>
-                        <input type="checkbox" id="checkbox" class="marcar" value="first_checkbox">
+                        <label for="checkbox" name="email">¿Recibir noticias de mis próximos lanzamientos? </label>
+                        <input type="checkbox" id="checkbox" class="marcar" value="first_checkbox" name="email">
                         <br>
-                        <button type="button" class="btn btn-warning">Enviar</button>
+                        <button type="submit" class="btn btn-warning" value="enviar">Enviar</button>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5503/contacto.html" />
+                        <input type="hidden" name="_captcha" value="false" />
+                        <input type="hidden" name="_template" value="table">
                     </form>
             </div>
         </div>
