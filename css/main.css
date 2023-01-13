@@ -1,12 +1,6 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.body{
+  background-color: #000;
 }
-
 .h5 {
   background-color: #cccccc;
 }
@@ -67,7 +61,7 @@ h1 {
 .contenedor {
   padding: 4vh;
   text-align: center;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 1.4rem;
   margin: 0;
 }
@@ -81,10 +75,9 @@ h1 {
   padding: 10vh 1.2rem;
   text-align: center;
   color: rgb(255, 255, 255);
-  font-size: 2.2rem;
+  font-size: 14px;
   margin: auto;
-  width: 60%;
-
+  width: 80%;
 }
 
 .contenedor2 h2 {
@@ -102,6 +95,7 @@ h1 {
   margin: auto;
   text-align: center;
   font-size: 18px;
+  color: #ffff;
 }
 
 .desc {
@@ -181,7 +175,7 @@ footer {
 .contenidoGroove1 p {
   margin: auto;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   width: 80%;
   padding: 26vh 1.2rem;
   color: #fff;
@@ -198,8 +192,8 @@ footer {
 .contenidoGroove2 p {
   margin: auto;
   text-align: center;
-  font-size: 1.2rem;
-  width: 70%;
+  font-size: 20px;
+  width: 80%;
   padding: 25vh 1.2rem;
   color: #fff;
 }
@@ -215,8 +209,8 @@ footer {
 .contenidoGroove3 p {
   margin: auto;
   text-align: center;
-  font-size: 1.2rem;
-  width: 70%;
+  font-size: 20px;
+  width: 80%;
   padding: 25vh 1.2rem;
   color: #fff;
 }
@@ -232,8 +226,8 @@ footer {
 .contenidoGroove4 p {
   margin: auto;
   text-align: center;
-  font-size: 1.2rem;
-  width: 70%;
+  font-size: 20px;
+  width: 80%;
   padding: 25vh 1.2rem;
   color: #fff;
 }
@@ -245,9 +239,9 @@ footer {
 
 .contenidoGroove5 p {
   margin: auto;
-  font-size: 1.2rem;
-  width: 70%;
-  padding: 3vh 2.2rem;
+  font-size: 20px;
+  width: 80%;
+
   color: #fff;
 }
 
@@ -264,8 +258,8 @@ footer {
 .contenidoGroove6 p {
   margin: auto;
   text-align: center;
-  font-size: 1.2rem;
-  width: 70%;
+  font-size: 20px;
+  width: 80%;
   padding: 25vh 1.5rem;
   color: #fff;
 }
@@ -279,7 +273,7 @@ footer {
 
 .contenidoGroove7 p {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 20px;
   min-height: 70px;
   padding: 25vh 20rem;
   color: #fff;
@@ -295,7 +289,7 @@ footer {
 
 .contenidoGroove8 p {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 20px;
   min-height: 70px;
   padding: 25vh 20rem;
   color: #fff;
@@ -310,7 +304,7 @@ footer {
 
 .contenidoGroove9 p {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 20px;
   min-height: 70px;
   padding: 25vh 20rem;
   color: #fff;
@@ -323,8 +317,8 @@ footer {
 
 .contenidoGroove10 p {
   margin: auto;
-  font-size: 1.2rem;
-  width: 70%;
+  font-size: 20px;
+  width: 80%;
   padding: 3vh 2.2rem;
   color: #fff;
 }
@@ -381,6 +375,7 @@ footer {
   }
   footer {
     padding: 1.2rem;
+    
   }
   #intro {
     padding: 8vh 0;
@@ -581,6 +576,13 @@ footer {
     color: #a3afba;
     font-family: 'Open Sans', sans-serif;
 }
+footer p{
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #a3afba;
+    font-family: 'Open Sans', sans-serif;
+}
 
 .socials {
     padding-top: 33px;
@@ -591,7 +593,7 @@ footer {
     background: url(../images/time_bg.png) 0 center repeat-x;
     float: left;
     display: block;
-    font-size: 20px;
+    font-size: 10px;
     width: 40px;
     height: 37px;
     color: #e5e5e5;
@@ -642,3 +644,45 @@ footer {
     outline: none;
     background-position: right 0;
 }
+
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.contenedor_galeria{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	max-width: 1000px;
+	margin: 0 auto;
+
+	}
+
+
+.galeria__img {
+
+	width: 1000px;
+	height: 800px;
+	margin-bottom: 30px;
+	object-fit: cover;
+	}
