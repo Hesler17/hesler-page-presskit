@@ -4856,7 +4856,7 @@ body.minimal {
 .background-image-container {
     height: 650px;
  
-    background-image: url('/img/index/background.png');
+    background-image: url('../img/index/background.png');
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: cover;
