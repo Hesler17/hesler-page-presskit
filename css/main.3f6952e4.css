@@ -9,8 +9,8 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
     font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+
+ 
 }
 
 body {
@@ -4775,29 +4775,38 @@ body {
 }
 
 body.minimal {
+    
     border: none;
     padding: 0
 }
 
 .hero-full-container {
-    height: 100vh
+    height: 100vh;
+   
 }
 
 .hero-full-container h1 {
+
     font-family: Roboto, Helvetica, Arial, sans-serif;
-    font-weight: 900
+    font-weight: 900;
+   
 }
 
 .hero-full-container .hero-full-wrapper {
+
     display: table;
-    width: 100%;
+    width: 93%;
     height: 100vh;
-    min-height: 100vh
+    min-height: 100vh;
+    
 }
 
 .hero-full-container .hero-full-wrapper .text-content {
+    
     vertical-align: middle;
-    display: table-cell
+    display: table-cell;
+    
+    
 }
 
 .white-text-container h1,
@@ -4845,9 +4854,13 @@ body.minimal {
 }
 
 .background-image-container {
-    background-size: cover;
+    height: 650px;
+ 
+    background-image: url('/img/index/background.png');
     background-repeat: no-repeat;
-    background-position: top
+    object-fit: cover;
+    background-size: cover;
+    background-position: top;
 }
 
 .btn {
@@ -5117,41 +5130,5 @@ textarea {
     }
 }
 
-.template-example {
-    margin-bottom: 30px
-}
-
-.template-example .template-title-example {
-    font-weight: 400;
-    color: #34495e;
-    padding: 0;
-    font-size: 30px
-}
-
-.template-example .template-title-example:after,
-.template-example .template-title-example:before {
-    display: none
-}
-
-.template-example .table>tbody>tr>td,
-.template-example .table>tbody>tr>th,
-.template-example .table>tfoot>tr>td,
-.template-example .table>tfoot>tr>th,
-.template-example .table>thead>tr>td,
-.template-example .table>thead>tr>th {
-    padding: 0 15px
-}
-
-.list-icons {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden
-}
-
-.list-icons li {
-    float: left;
-    margin-right: 5px
-}
 
 /*# sourceMappingURL=main.70a66962.map*/

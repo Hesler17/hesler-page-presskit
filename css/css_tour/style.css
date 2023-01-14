@@ -3,10 +3,6 @@
 @import "font-awesome.css";
 @import "superfish.css";
 
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400);
-@import url(//fonts.googleapis.com/css?family=Open+Sans:300);
-@import url(//fonts.googleapis.com/css?family=Open+Sans:600);
-@import url(//fonts.googleapis.com/css?family=PT+Sans+Narrow);
 
 html {
 	width: 100%;
@@ -18,9 +14,7 @@ a[href^="tel:"] {
 }
 
 
-* {
-	-webkit-text-size-adjust: none;
-}
+
 
 body {
 	position: relative;
